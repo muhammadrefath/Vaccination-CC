@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alerts</title>
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body>
+    <div id="header"><h1>Alerts</h1>    </div>
+    <div class="navbar">
+      <a href="../Administration/Dashboard.html"><i class="fa fa-fw fa-home"></i>Dashboard</a>
+    
+      <a href="Vaccine Request.html">Vaccine Request</a>
+      <div class="dropdown">
+        <button class="dropbtn"><b>Vaccine Management</b>
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Administration/Add Vaccine.html">Add vaccine </a>
+          <a href="../Administration/Update Vaccine.html">Update Vaccine</a>
+          <a href="../Vaccine Center Staff/Request Vaccine.html">Manage Requests</a>
+          
+        </div>
+      </div>
+      <a href="Alerts.html">Alerts</a>
+      <div class="dropdown">
+        <button class="dropbtn"><b>Users</b>
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="../Administration/Add Users.html">Add User </a>
+          <a href="../Administration/Delete Users.html">Delete User</a>
+          <a href="../Administration/Modify User.html">Modify User</a>
+          <a href="../Administration/User Role.html">User Role</a>
+          
+        </div>
+        
+      </div>
+      <a href="../Administration/User Activity.html">User Actvity</a>
+
+
+    </div>
+
+
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Alerts - Inventory Manager</title>
+  <style>
+    /* Basic styling for the page */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    input[type="text"],
+    select {
+      width: calc(100% - 18px);
+      padding: 8px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    .btn-resolve {
+      padding: 6px 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      background-color: #428bca;
+      color: white;
+    }
+
+    .notification {
+      margin-bottom: 20px;
+      padding: 10px;
+      border-radius: 4px;
+    }
+
+    .notification.critical {
+      background-color: #d9534f;
+      color: white;
+    }
+
+    .notification.high {
+      background-color: #f0ad4e;
+      color: white;
+    }
+
+    .notification.medium {
+      background-color: #5bc0de;
+      color: white;
+    }
+
+    .notification.low {
+      background-color: #5cb85c;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Alerts</h2>
+
+    <!-- Alert Overview (Placeholder) -->
+    <div class="notification critical">
+      <strong>Alert Overview:</strong> Total: 10 | Critical: 3 | High: 2 | Medium: 3 | Low: 2
+    </div>
+
+    <!-- Filter and Sort Options -->
+    <input type="text" placeholder="Search by alert description">
+    <select>
+      <option value="">Filter by severity</option>
+      <option value="critical">Critical</option>
+      <option value="high">High</option>
+      <option value="medium">Medium</option>
+      <option value="low">Low</option>
+    </select>
+
+    <!-- Alert List/Table -->
+    <table>
+      <thead>
+        <tr>
+          <th>Alert ID</th>
+          <th>Alert Type</th>
+          <th>Description</th>
+          <th>Timestamp</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Placeholder for alert entries -->
+        <tr>
+          <td>001</td>
+          <td>Critical</td>
+          <td>Low stock of COVID-19 Vaccine</td>
+          <td>2023-11-30 10:00 AM</td>
+          <td><button class="btn-resolve">Resolve</button></td>
+        </tr>
+        <!-- Add more alert entries -->
+      </tbody>
+    </table>
+
+    <!-- Alert History (Placeholder) -->
+    <h3>Alert History</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Alert ID</th>
+          <th>Resolved By</th>
+          <th>Date Resolved</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Placeholder for alert history entries -->
+        <tr>
+          <td>001</td>
+          <td>John Doe</td>
+          <td>2023-11-30</td>
+          <td>Resolved: Restocked 100 doses of COVID-19 Vaccine</td>
+        </tr>
+        <!-- Add more alert history entries -->
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
+
+    
+    
+  </body>
+</html>
